@@ -10,8 +10,8 @@ import sys
 sys.path.append('scripts')
 
 try:
-    from analysis import NiftyAnalyzer
-    from visualization import NiftyVisualizer
+    from scripts.analysis import NiftyAnalyzer
+    from scripts.visualization import NiftyVisualizer
 except ImportError as e:
     st.error(f"Error importing modules: {e}")
     st.stop()

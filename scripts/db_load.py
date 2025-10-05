@@ -191,8 +191,8 @@ def main():
     db_url = "postgresql://postgres:1998@localhost:5432/postgres"
     db_manager = DatabaseManager(db_url)
     
-    stock_data_path = r"C:\nifty50-stock-dashboard\nifty50_cleaned.csv"
-    metrics_data_path = r"C:\nifty50-stock-dashboard\nifty50_yearly_metrics.csv"
+    stock_data_path = r"nifty50_cleaned.csv"
+    metrics_data_path = r"nifty50_yearly_metrics.csv"
     
     db_manager.run_database_setup(stock_data_path, metrics_data_path)
     

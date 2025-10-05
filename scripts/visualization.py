@@ -6,7 +6,7 @@ from plotly.subplots import make_subplots
 import os
 
 class NiftyVisualizer:
-    def __init__(self, data_path=r"C:\nifty50-stock-dashboard\nifty50_cleaned.csv"):
+    def __init__(self, data_path=r"nifty50_cleaned.csv"):
         self.data_path = data_path
         self.df = None
         self.yearly_metrics = None
@@ -26,7 +26,7 @@ class NiftyVisualizer:
             print(f"Data file not found: {self.data_path}")
             return
         
-        yearly_path = r"C:\nifty50-stock-dashboard\nifty50_yearly_metrics.csv"
+        yearly_path = r"nifty50_yearly_metrics.csv"
         if os.path.exists(yearly_path):
             self.yearly_metrics = pd.read_csv(yearly_path)
             print(f"Loaded yearly metrics for visualization")

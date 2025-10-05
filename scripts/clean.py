@@ -4,14 +4,14 @@ from datetime import datetime
 import os
 
 class NiftyDataCleaner:
-    def __init__(self, data_dir=r"C:\nifty50-stock-dashboard\extracted"):
+    def __init__(self, data_dir=r"extracted"):
         self.data_dir = data_dir
     
     def load_data(self, file_path=None):
         if file_path:
             df = pd.read_csv(file_path)
         else:
-            combined_path = r"C:\nifty50-stock-dashboard\extracted\nifty50_combined.csv"
+            combined_path = r"nifty50_combined.csv"
             if os.path.exists(combined_path):
                 df = pd.read_csv(combined_path)
             else:
@@ -121,7 +121,7 @@ class NiftyDataCleaner:
         return yearly_metrics
     
     def save_cleaned_data(self, df):
-        cleaned_path = r"C:\nifty50-stock-dashboard\nifty50_cleaned.csv"
+        cleaned_path = r"nifty50_cleaned.csv"
         df.to_csv(cleaned_path, index=False)
         print(f"Saved cleaned data to {cleaned_path}")
     

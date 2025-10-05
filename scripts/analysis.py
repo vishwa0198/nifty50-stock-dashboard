@@ -4,7 +4,7 @@ from datetime import datetime
 import os
 
 class NiftyAnalyzer:
-    def __init__(self, data_path=r"C:\nifty50-stock-dashboard\nifty50_cleaned.csv"):
+    def __init__(self, data_path=r"nifty50_cleaned.csv"):
         self.data_path = data_path
         self.df = None
         self.yearly_metrics = None
@@ -19,7 +19,7 @@ class NiftyAnalyzer:
             print(f"Data file not found: {self.data_path}")
             return
         
-        yearly_path = r"C:\nifty50-stock-dashboard\nifty50_yearly_metrics.csv"
+        yearly_path = r"nifty50_yearly_metrics.csv"
         if os.path.exists(yearly_path):
             self.yearly_metrics = pd.read_csv(yearly_path)
             print(f"Loaded yearly metrics for {len(self.yearly_metrics)} stocks")
