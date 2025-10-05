@@ -1,0 +1,814 @@
+{
+  "2023-10": {
+    "top_gainers": [
+      {
+        "ticker": "NESTLEIND",
+        "sector": "Consumer Goods",
+        "monthly_return": 8.602208360220837
+      },
+      {
+        "ticker": "COALINDIA",
+        "sector": "Energy",
+        "monthly_return": 7.65673175745119
+      },
+      {
+        "ticker": "BAJAJ-AUTO",
+        "sector": "Automobile",
+        "monthly_return": 5.932482133779872
+      },
+      {
+        "ticker": "SBILIFE",
+        "sector": "Financial Services",
+        "monthly_return": 5.833881388061423
+      },
+      {
+        "ticker": "TRENT",
+        "sector": "Consumer Services",
+        "monthly_return": 4.642805109028212
+      }
+    ],
+    "top_losers": [
+      {
+        "ticker": "WIPRO",
+        "sector": "Information Technology",
+        "monthly_return": -5.83302503391293
+      },
+      {
+        "ticker": "APOLLOHOSP",
+        "sector": "Healthcare",
+        "monthly_return": -5.842018382676138
+      },
+      {
+        "ticker": "SBIN",
+        "sector": "Financial Services",
+        "monthly_return": -6.202836056057731
+      },
+      {
+        "ticker": "TECHM",
+        "sector": "Information Technology",
+        "monthly_return": -6.828646604176941
+      },
+      {
+        "ticker": "TATASTEEL",
+        "sector": "Materials",
+        "monthly_return": -7.2265625
+      }
+    ],
+    "avg_return": -1.3041205472794637,
+    "total_stocks": 47
+  },
+  "2023-11": {
+    "top_gainers": [
+      {
+        "ticker": "TRENT",
+        "sector": "Consumer Services",
+        "monthly_return": 26.817282096785195
+      },
+      {
+        "ticker": "HEROMOTOCO",
+        "sector": "Automobile",
+        "monthly_return": 23.495933644844715
+      },
+      {
+        "ticker": "BPCL",
+        "sector": "Energy",
+        "monthly_return": 22.07901372933595
+      },
+      {
+        "ticker": "EICHERMOT",
+        "sector": "Automobile",
+        "monthly_return": 18.72648335745297
+      },
+      {
+        "ticker": "APOLLOHOSP",
+        "sector": "Healthcare",
+        "monthly_return": 15.269308148565106
+      }
+    ],
+    "top_losers": [
+      {
+        "ticker": "KOTAKBANK",
+        "sector": "Financial Services",
+        "monthly_return": 1.8006263048016675
+      },
+      {
+        "ticker": "ITC",
+        "sector": "Consumer Goods",
+        "monthly_return": 1.7986451763606606
+      },
+      {
+        "ticker": "NESTLEIND",
+        "sector": "Consumer Goods",
+        "monthly_return": 1.5222408860330061
+      },
+      {
+        "ticker": "CIPLA",
+        "sector": "Healthcare",
+        "monthly_return": 0.919875130072837
+      },
+      {
+        "ticker": "SBIN",
+        "sector": "Financial Services",
+        "monthly_return": -0.2913135593220299
+      }
+    ],
+    "avg_return": 8.734630814821095,
+    "total_stocks": 47
+  },
+  "2023-12": {
+    "top_gainers": [
+      {
+        "ticker": "BEL",
+        "sector": "Services",
+        "monthly_return": 24.923702950152595
+      },
+      {
+        "ticker": "ADANIPORTS",
+        "sector": "Services",
+        "monthly_return": 23.74365788837883
+      },
+      {
+        "ticker": "ADANIENT",
+        "sector": "Materials",
+        "monthly_return": 20.580268337071995
+      },
+      {
+        "ticker": "HINDALCO",
+        "sector": "Materials",
+        "monthly_return": 18.88051044083526
+      },
+      {
+        "ticker": "NTPC",
+        "sector": "Utilities",
+        "monthly_return": 15.690648819483172
+      }
+    ],
+    "top_losers": [
+      {
+        "ticker": "DRREDDY",
+        "sector": "Healthcare",
+        "monthly_return": 0.8435662851775678
+      },
+      {
+        "ticker": "SBILIFE",
+        "sector": "Financial Services",
+        "monthly_return": 0.6286657535208666
+      },
+      {
+        "ticker": "BAJAJFINSV",
+        "sector": "Financial Services",
+        "monthly_return": -0.008897061004187013
+      },
+      {
+        "ticker": "AXISBANK",
+        "sector": "Financial Services",
+        "monthly_return": -0.21273706603902923
+      },
+      {
+        "ticker": "HDFCLIFE",
+        "sector": "Financial Services",
+        "monthly_return": -5.19680422194531
+      }
+    ],
+    "avg_return": 7.88556305331216,
+    "total_stocks": 47
+  },
+  "2024-01": {
+    "top_gainers": [
+      {
+        "ticker": "ONGC",
+        "sector": "Energy",
+        "monthly_return": 22.83905527148771
+      },
+      {
+        "ticker": "SHRIRAMFIN",
+        "sector": "Financial Services",
+        "monthly_return": 20.399248358835457
+      },
+      {
+        "ticker": "BHARTIARTL",
+        "sector": "Telecommunications",
+        "monthly_return": 15.56191698336707
+      },
+      {
+        "ticker": "ADANIPORTS",
+        "sector": "Services",
+        "monthly_return": 15.250274371331793
+      },
+      {
+        "ticker": "SUNPHARMA",
+        "sector": "Healthcare",
+        "monthly_return": 12.553064868081734
+      }
+    ],
+    "top_losers": [
+      {
+        "ticker": "JSWSTEEL",
+        "sector": "Materials",
+        "monthly_return": -6.717183226982685
+      },
+      {
+        "ticker": "NESTLEIND",
+        "sector": "Consumer Goods",
+        "monthly_return": -8.447925647732745
+      },
+      {
+        "ticker": "HDFCLIFE",
+        "sector": "Financial Services",
+        "monthly_return": -11.114536765839373
+      },
+      {
+        "ticker": "ASIANPAINT",
+        "sector": "Consumer Goods",
+        "monthly_return": -12.904508112246402
+      },
+      {
+        "ticker": "HDFCBANK",
+        "sector": "Financial Services",
+        "monthly_return": -13.871385666332959
+      }
+    ],
+    "avg_return": 2.375756461112821,
+    "total_stocks": 46
+  },
+  "2024-02": {
+    "top_gainers": [
+      {
+        "ticker": "TRENT",
+        "sector": "Consumer Services",
+        "monthly_return": 25.10635554982596
+      },
+      {
+        "ticker": "BPCL",
+        "sector": "Energy",
+        "monthly_return": 18.762537859418643
+      },
+      {
+        "ticker": "M&M",
+        "sector": "Automobile",
+        "monthly_return": 17.03358265451352
+      },
+      {
+        "ticker": "SBIN",
+        "sector": "Financial Services",
+        "monthly_return": 15.509920481741691
+      },
+      {
+        "ticker": "SUNPHARMA",
+        "sector": "Healthcare",
+        "monthly_return": 12.074292410952093
+      }
+    ],
+    "top_losers": [
+      {
+        "ticker": "HDFCBANK",
+        "sector": "Financial Services",
+        "monthly_return": -4.29297234630203
+      },
+      {
+        "ticker": "INDUSINDBK",
+        "sector": "Financial Services",
+        "monthly_return": -4.298737955422898
+      },
+      {
+        "ticker": "KOTAKBANK",
+        "sector": "Financial Services",
+        "monthly_return": -7.313125771499106
+      },
+      {
+        "ticker": "ITC",
+        "sector": "Consumer Goods",
+        "monthly_return": -8.263716414540522
+      },
+      {
+        "ticker": "HINDALCO",
+        "sector": "Materials",
+        "monthly_return": -11.798687089715532
+      }
+    ],
+    "avg_return": 3.2250139219057847,
+    "total_stocks": 47
+  },
+  "2024-03": {
+    "top_gainers": [
+      {
+        "ticker": "BHARTIARTL",
+        "sector": "Telecommunications",
+        "monthly_return": 8.85089040489057
+      },
+      {
+        "ticker": "HINDALCO",
+        "sector": "Materials",
+        "monthly_return": 7.92718166056636
+      },
+      {
+        "ticker": "HDFCLIFE",
+        "sector": "Financial Services",
+        "monthly_return": 7.356555640308496
+      },
+      {
+        "ticker": "HEROMOTOCO",
+        "sector": "Automobile",
+        "monthly_return": 4.774688824299434
+      },
+      {
+        "ticker": "ITC",
+        "sector": "Consumer Goods",
+        "monthly_return": 4.603174603174609
+      }
+    ],
+    "top_losers": [
+      {
+        "ticker": "HINDUNILVR",
+        "sector": "Consumer Goods",
+        "monthly_return": -6.031871187284721
+      },
+      {
+        "ticker": "HCLTECH",
+        "sector": "Information Technology",
+        "monthly_return": -6.115808040873424
+      },
+      {
+        "ticker": "WIPRO",
+        "sector": "Information Technology",
+        "monthly_return": -7.513003274898863
+      },
+      {
+        "ticker": "TATACONSUM",
+        "sector": "Unknown",
+        "monthly_return": -8.726586077251191
+      },
+      {
+        "ticker": "INFY",
+        "sector": "Information Technology",
+        "monthly_return": -9.46697286517194
+      }
+    ],
+    "avg_return": -0.3066094627049711,
+    "total_stocks": 47
+  },
+  "2024-04": {
+    "top_gainers": [
+      {
+        "ticker": "EICHERMOT",
+        "sector": "Automobile",
+        "monthly_return": 16.488667604170615
+      },
+      {
+        "ticker": "TRENT",
+        "sector": "Consumer Services",
+        "monthly_return": 13.458371925491392
+      },
+      {
+        "ticker": "HINDALCO",
+        "sector": "Materials",
+        "monthly_return": 13.33098839254308
+      },
+      {
+        "ticker": "M&M",
+        "sector": "Automobile",
+        "monthly_return": 12.547300294892866
+      },
+      {
+        "ticker": "AXISBANK",
+        "sector": "Financial Services",
+        "monthly_return": 10.711233501092032
+      }
+    ],
+    "top_losers": [
+      {
+        "ticker": "SUNPHARMA",
+        "sector": "Healthcare",
+        "monthly_return": -7.804204388522332
+      },
+      {
+        "ticker": "APOLLOHOSP",
+        "sector": "Healthcare",
+        "monthly_return": -7.900422006272015
+      },
+      {
+        "ticker": "HDFCLIFE",
+        "sector": "Financial Services",
+        "monthly_return": -8.0504135486412
+      },
+      {
+        "ticker": "KOTAKBANK",
+        "sector": "Financial Services",
+        "monthly_return": -9.312000893505333
+      },
+      {
+        "ticker": "HCLTECH",
+        "sector": "Information Technology",
+        "monthly_return": -12.211729941543016
+      }
+    ],
+    "avg_return": 0.7827702732595354,
+    "total_stocks": 46
+  },
+  "2024-05": {
+    "top_gainers": [
+      {
+        "ticker": "BEL",
+        "sector": "Services",
+        "monthly_return": 24.451544195953133
+      },
+      {
+        "ticker": "M&M",
+        "sector": "Automobile",
+        "monthly_return": 14.69464338832574
+      },
+      {
+        "ticker": "HEROMOTOCO",
+        "sector": "Automobile",
+        "monthly_return": 12.235010413241266
+      },
+      {
+        "ticker": "ADANIENT",
+        "sector": "Materials",
+        "monthly_return": 12.230227661534412
+      },
+      {
+        "ticker": "BRITANNIA",
+        "sector": "Consumer Goods",
+        "monthly_return": 8.827329740632202
+      }
+    ],
+    "top_losers": [
+      {
+        "ticker": "ONGC",
+        "sector": "Energy",
+        "monthly_return": -6.52404526166902
+      },
+      {
+        "ticker": "DRREDDY",
+        "sector": "Healthcare",
+        "monthly_return": -7.883101391650108
+      },
+      {
+        "ticker": "SHRIRAMFIN",
+        "sector": "Financial Services",
+        "monthly_return": -8.83195848340497
+      },
+      {
+        "ticker": "TITAN",
+        "sector": "Consumer Goods",
+        "monthly_return": -9.151031960655178
+      },
+      {
+        "ticker": "TATAMOTORS",
+        "sector": "Automobile",
+        "monthly_return": -10.196536291107215
+      }
+    ],
+    "avg_return": 0.23127124268216726,
+    "total_stocks": 46
+  },
+  "2024-06": {
+    "top_gainers": [
+      {
+        "ticker": "TRENT",
+        "sector": "Consumer Services",
+        "monthly_return": 17.5378576637639
+      },
+      {
+        "ticker": "SHRIRAMFIN",
+        "sector": "Financial Services",
+        "monthly_return": 16.035310762608848
+      },
+      {
+        "ticker": "WIPRO",
+        "sector": "Information Technology",
+        "monthly_return": 15.931096599864894
+      },
+      {
+        "ticker": "TECHM",
+        "sector": "Information Technology",
+        "monthly_return": 14.855261573051754
+      },
+      {
+        "ticker": "GRASIM",
+        "sector": "Materials",
+        "monthly_return": 12.734295845997956
+      }
+    ],
+    "top_losers": [
+      {
+        "ticker": "ADANIPORTS",
+        "sector": "Services",
+        "monthly_return": -6.682660437513818
+      },
+      {
+        "ticker": "COALINDIA",
+        "sector": "Energy",
+        "monthly_return": -7.6510198106763045
+      },
+      {
+        "ticker": "BPCL",
+        "sector": "Energy",
+        "monthly_return": -8.745646691485529
+      },
+      {
+        "ticker": "LT",
+        "sector": "Construction",
+        "monthly_return": -8.947564245666712
+      },
+      {
+        "ticker": "ADANIENT",
+        "sector": "Materials",
+        "monthly_return": -12.841368904739042
+      }
+    ],
+    "avg_return": 3.9184550982083346,
+    "total_stocks": 46
+  },
+  "2024-07": {
+    "top_gainers": [
+      {
+        "ticker": "ONGC",
+        "sector": "Energy",
+        "monthly_return": 22.44000732734933
+      },
+      {
+        "ticker": "HDFCLIFE",
+        "sector": "Financial Services",
+        "monthly_return": 19.101123595505616
+      },
+      {
+        "ticker": "INFY",
+        "sector": "Information Technology",
+        "monthly_return": 17.44091023384461
+      },
+      {
+        "ticker": "SBILIFE",
+        "sector": "Financial Services",
+        "monthly_return": 16.765988614042694
+      },
+      {
+        "ticker": "ITC",
+        "sector": "Consumer Goods",
+        "monthly_return": 15.452744435380495
+      }
+    ],
+    "top_losers": [
+      {
+        "ticker": "RELIANCE",
+        "sector": "Energy",
+        "monthly_return": -3.5073550620132696
+      },
+      {
+        "ticker": "NESTLEIND",
+        "sector": "Consumer Goods",
+        "monthly_return": -4.351466064405591
+      },
+      {
+        "ticker": "HDFCBANK",
+        "sector": "Financial Services",
+        "monthly_return": -5.2457189772460735
+      },
+      {
+        "ticker": "TATASTEEL",
+        "sector": "Materials",
+        "monthly_return": -6.434193140690521
+      },
+      {
+        "ticker": "AXISBANK",
+        "sector": "Financial Services",
+        "monthly_return": -7.591726761233075
+      }
+    ],
+    "avg_return": 5.263417004695949,
+    "total_stocks": 46
+  },
+  "2024-08": {
+    "top_gainers": [
+      {
+        "ticker": "TRENT",
+        "sector": "Consumer Services",
+        "monthly_return": 12.677618354474241
+      },
+      {
+        "ticker": "BAJAJFINSV",
+        "sector": "Financial Services",
+        "monthly_return": 9.068387570344996
+      },
+      {
+        "ticker": "SHRIRAMFIN",
+        "sector": "Financial Services",
+        "monthly_return": 7.20080287697583
+      },
+      {
+        "ticker": "CIPLA",
+        "sector": "Healthcare",
+        "monthly_return": 7.030138403828744
+      },
+      {
+        "ticker": "HCLTECH",
+        "sector": "Information Technology",
+        "monthly_return": 6.8696473743561635
+      }
+    ],
+    "top_losers": [
+      {
+        "ticker": "BEL",
+        "sector": "Services",
+        "monthly_return": -3.808452514864203
+      },
+      {
+        "ticker": "SBIN",
+        "sector": "Financial Services",
+        "monthly_return": -5.454123920477593
+      },
+      {
+        "ticker": "ADANIENT",
+        "sector": "Materials",
+        "monthly_return": -6.151216100707129
+      },
+      {
+        "ticker": "POWERGRID",
+        "sector": "Utilities",
+        "monthly_return": -6.563278870119092
+      },
+      {
+        "ticker": "ADANIPORTS",
+        "sector": "Services",
+        "monthly_return": -6.807533880451529
+      }
+    ],
+    "avg_return": 1.2110112607654975,
+    "total_stocks": 47
+  },
+  "2024-09": {
+    "top_gainers": [
+      {
+        "ticker": "M&M",
+        "sector": "Automobile",
+        "monthly_return": 11.44760532949226
+      },
+      {
+        "ticker": "SHRIRAMFIN",
+        "sector": "Financial Services",
+        "monthly_return": 10.904581040229434
+      },
+      {
+        "ticker": "HINDALCO",
+        "sector": "Materials",
+        "monthly_return": 10.571721011843847
+      },
+      {
+        "ticker": "JSWSTEEL",
+        "sector": "Materials",
+        "monthly_return": 9.52735392631186
+      },
+      {
+        "ticker": "BHARTIARTL",
+        "sector": "Telecommunications",
+        "monthly_return": 8.794985203805648
+      }
+    ],
+    "top_losers": [
+      {
+        "ticker": "TECHM",
+        "sector": "Information Technology",
+        "monthly_return": -4.2176540248383105
+      },
+      {
+        "ticker": "INFY",
+        "sector": "Information Technology",
+        "monthly_return": -4.525324510053454
+      },
+      {
+        "ticker": "TCS",
+        "sector": "Information Technology",
+        "monthly_return": -5.586091726479473
+      },
+      {
+        "ticker": "ONGC",
+        "sector": "Energy",
+        "monthly_return": -8.767627222562835
+      },
+      {
+        "ticker": "TATAMOTORS",
+        "sector": "Automobile",
+        "monthly_return": -10.799432572186895
+      }
+    ],
+    "avg_return": 2.0167663672662384,
+    "total_stocks": 44
+  },
+  "2024-10": {
+    "top_gainers": [
+      {
+        "ticker": "SBIN",
+        "sector": "Financial Services",
+        "monthly_return": 2.9173724825898737
+      },
+      {
+        "ticker": "HDFCLIFE",
+        "sector": "Financial Services",
+        "monthly_return": 1.4010137989298692
+      },
+      {
+        "ticker": "ICICIBANK",
+        "sector": "Financial Services",
+        "monthly_return": 1.4006591337099739
+      },
+      {
+        "ticker": "WIPRO",
+        "sector": "Information Technology",
+        "monthly_return": 0.9236396890717795
+      },
+      {
+        "ticker": "HDFCBANK",
+        "sector": "Financial Services",
+        "monthly_return": 0.5503417912177037
+      }
+    ],
+    "top_losers": [
+      {
+        "ticker": "M&M",
+        "sector": "Automobile",
+        "monthly_return": -13.80350655504659
+      },
+      {
+        "ticker": "BPCL",
+        "sector": "Energy",
+        "monthly_return": -15.614392396469789
+      },
+      {
+        "ticker": "TATACONSUM",
+        "sector": "Unknown",
+        "monthly_return": -16.192267502612335
+      },
+      {
+        "ticker": "NESTLEIND",
+        "sector": "Consumer Goods",
+        "monthly_return": -16.405312055558646
+      },
+      {
+        "ticker": "INDUSINDBK",
+        "sector": "Financial Services",
+        "monthly_return": -25.11881960700859
+      }
+    ],
+    "avg_return": -7.632784644353975,
+    "total_stocks": 44
+  },
+  "2024-11": {
+    "top_gainers": [
+      {
+        "ticker": "TECHM",
+        "sector": "Information Technology",
+        "monthly_return": 8.967043931032329
+      },
+      {
+        "ticker": "INFY",
+        "sector": "Information Technology",
+        "monthly_return": 8.030212681375478
+      },
+      {
+        "ticker": "HCLTECH",
+        "sector": "Information Technology",
+        "monthly_return": 8.02321611471492
+      },
+      {
+        "ticker": "M&M",
+        "sector": "Automobile",
+        "monthly_return": 6.931308004897689
+      },
+      {
+        "ticker": "TCS",
+        "sector": "Information Technology",
+        "monthly_return": 6.535816475076567
+      }
+    ],
+    "top_losers": [
+      {
+        "ticker": "NTPC",
+        "sector": "Utilities",
+        "monthly_return": -11.158380940804676
+      },
+      {
+        "ticker": "BRITANNIA",
+        "sector": "Consumer Goods",
+        "monthly_return": -14.837389448538127
+      },
+      {
+        "ticker": "ASIANPAINT",
+        "sector": "Consumer Goods",
+        "monthly_return": -15.90727418065548
+      },
+      {
+        "ticker": "ADANIPORTS",
+        "sector": "Services",
+        "monthly_return": -18.477481353987383
+      },
+      {
+        "ticker": "ADANIENT",
+        "sector": "Materials",
+        "monthly_return": -24.461773181895236
+      }
+    ],
+    "avg_return": -3.7074285631629924,
+    "total_stocks": 46
+  }
+}

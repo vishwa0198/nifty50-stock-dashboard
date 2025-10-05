@@ -1,0 +1,13 @@
+{
+  "total_stocks": 48,
+  "green_stocks": "43",
+  "red_stocks": "5",
+  "green_percentage": 89.58333333333334,
+  "red_percentage": 10.416666666666668,
+  "avg_price": 1843.6404645879036,
+  "avg_volume": 6310702.484252585,
+  "date_range": [
+    "2023-10-03 05:30:00",
+    "2024-11-22 05:30:00"
+  ]
+}
