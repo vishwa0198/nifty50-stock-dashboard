@@ -12,6 +12,7 @@ sys.path.append('scripts')
 try:
     from scripts.analysis import NiftyAnalyzer
     from scripts.visualization import NiftyVisualizer
+    from scripts.powerbi import PowerBIDataExporter
 except ImportError as e:
     st.error(f"Error importing modules: {e}")
     st.stop()
@@ -89,6 +90,14 @@ def main():
         available_stocks = df['ticker'].unique()
     
     selected_stock = st.sidebar.selectbox("Select Individual Stock", ['None'] + sorted(available_stocks.tolist()))
+    st.sidebar.markdown("---")
+    if st.sidebar.button("Export data for Power BI"):
+        try:
+            exporter = PowerBIDataExporter()
+            exporter.export_for_powerbi()
+            st.sidebar.success("Exported to powerbi_data/*.csv")
+        except Exception as e:
+            st.sidebar.error(f"Power BI export failed: {e}")
     
     filtered_df = df.copy()
     if selected_sector != 'All':
@@ -100,12 +109,13 @@ def main():
             (filtered_df['date'].dt.date <= date_range[1])
         ]
     
-    tab1, tab2, tab3, tab4, tab5 = st.tabs([
+    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
         "📊 Market Overview", 
         "📈 Performance Analysis", 
         "🔍 Risk Analysis", 
         "📅 Monthly Analysis",
-        "🎯 Individual Stock"
+        "🎯 Individual Stock",
+        "🧩 Power BI"
     ])
     
     with tab1:
@@ -286,6 +296,28 @@ def main():
             )
             fig_scatter.update_layout(height=500)
             st.plotly_chart(fig_scatter, use_container_width=True)
+
+        st.subheader("Correlation Heatmap")
+        try:
+            # Build correlation on filtered data (limit to avoid overcrowding)
+            sample_size = min(30, len(filtered_df['ticker'].unique()))
+            sample_tickers = sorted(filtered_df['ticker'].unique())[:sample_size]
+            corr_df = filtered_df[filtered_df['ticker'].isin(sample_tickers)]
+            price_pivot = corr_df.pivot_table(index='date', columns='ticker', values='close', aggfunc='first')
+            price_changes = price_pivot.pct_change().dropna()
+            correlation_matrix = price_changes.corr()
+            if not correlation_matrix.empty:
+                fig_corr = px.imshow(
+                    correlation_matrix,
+                    text_auto=False,
+                    color_continuous_scale='RdBu',
+                    zmin=-1, zmax=1,
+                    title=f"Stock Price Correlation Heatmap (n={correlation_matrix.shape[0]})"
+                )
+                fig_corr.update_layout(height=600, xaxis_tickangle=-45)
+                st.plotly_chart(fig_corr, use_container_width=True)
+        except Exception as e:
+            st.warning(f"Could not generate correlation heatmap: {e}")
     
     with tab4:
         st.header("📅 Monthly Analysis")
@@ -317,6 +349,41 @@ def main():
                 
                 st.subheader("Monthly Performance Summary")
                 st.dataframe(monthly_df, use_container_width=True)
+
+                # Top 5 Gainers and Losers (Month-wise)
+                st.subheader("Top 5 Gainers and Losers by Month")
+                months_sorted = sorted(monthly_data.keys())
+                selected_month = st.selectbox("Select Month", months_sorted, index=len(months_sorted)-1)
+                month_payload = monthly_data.get(selected_month, {})
+                gainers = pd.DataFrame(month_payload.get('top_gainers', []))
+                losers = pd.DataFrame(month_payload.get('top_losers', []))
+
+                col_g, col_l = st.columns(2)
+                with col_g:
+                    st.write(f"Top 5 Gainers - {selected_month}")
+                    if not gainers.empty:
+                        fig_g = px.bar(
+                            gainers.sort_values('monthly_return', ascending=False),
+                            x='ticker', y='monthly_return', color='monthly_return',
+                            title=None, color_continuous_scale='Greens'
+                        )
+                        fig_g.update_layout(height=400, showlegend=False)
+                        st.plotly_chart(fig_g, use_container_width=True)
+                    else:
+                        st.info("No data for gainers in selected month")
+
+                with col_l:
+                    st.write(f"Top 5 Losers - {selected_month}")
+                    if not losers.empty:
+                        fig_l = px.bar(
+                            losers.sort_values('monthly_return', ascending=True),
+                            x='ticker', y='monthly_return', color='monthly_return',
+                            title=None, color_continuous_scale='Reds'
+                        )
+                        fig_l.update_layout(height=400, showlegend=False)
+                        st.plotly_chart(fig_l, use_container_width=True)
+                    else:
+                        st.info("No data for losers in selected month")
     
     with tab5:
         st.header(f"🎯 Individual Stock Analysis - {selected_stock}")
@@ -389,6 +456,14 @@ def main():
                 st.warning(f"No data available for {selected_stock} in the selected date range.")
         else:
             st.info("Please select a stock from the sidebar to view individual analysis.")
+
+    with tab6:
+        st.header("🧩 Power BI Report")
+        st.info("Use the sidebar button 'Export data for Power BI' to refresh CSVs. Then open your Power BI report connected to the powerbi_data folder. If you have a published report link, paste it below to embed.")
+        pbi_url = st.text_input("Power BI report 'Embed' URL (public or organizational)")
+        if pbi_url:
+            # Simple iframe embed
+            st.components.v1.iframe(src=pbi_url, height=700, scrolling=True)
     
     st.markdown("---")
     st.markdown(
